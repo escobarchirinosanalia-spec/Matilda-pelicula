@@ -108,3 +108,37 @@ h1 {
     line-height: 1.8;
     text-align: justify;
 }
+.recomendacion {
+    width: 90%;
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 30px;
+    text-align: center;
+    background-color: #fff8e7;
+    border-radius: 20px;
+}
+
+.recomendacion h2 {
+    color: #7b1e3a;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.recomendacion p {
+    color: #444;
+    font-size: 18px;
+    line-height: 1.8;
+    margin-bottom: 25px;
+}
+
+.recomendacion audio {
+    width: 100%;
+    max-width: 500px;
+    margin-bottom: 30px;
+}
+
+.video-placeholder {
+    padding: 25px;
+    border: 2px dashed #7b1e3a;
+    border-radius: 15px;
+}
