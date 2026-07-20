@@ -55,3 +55,30 @@ h1 {
     font-size: 18px;
     color: white;
 }
+
+.presentacion {
+    max-width: 800px;
+    margin: 60px auto;
+    padding: 30px;
+    text-align: center;
+    background-color: #fff8e7;
+    border-radius: 20px;
+}
+
+.presentacion h2 {
+    color: #7b1e3a;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.presentacion p {
+    color: #333333;
+    font-size: 18px;
+    line-height: 1.8;
+    margin-bottom: 20px;
+}
+
+.presentacion h3 {
+    color: #7b1e3a;
+    font-size: 24px;
+}
