@@ -142,3 +142,12 @@ h1 {
     border: 2px dashed #7b1e3a;
     border-radius: 15px;
 }
+.recomendacion iframe {
+    width: 100%;
+    max-width: 700px;
+    aspect-ratio: 16 / 9;
+    border: none;
+    border-radius: 15px;
+    margin: 20px auto 0;
+    display: block;
+}
