@@ -84,7 +84,7 @@ h1 {
 }
 
 
-/* CAJAS DE CONTENIDO */
+/* SECCIONES */
 
 .presentacion,
 .sinopsis,
@@ -106,7 +106,7 @@ h1 {
 }
 
 
-/* TITULOS DE SECCION */
+/* TITULOS */
 
 .presentacion h2,
 .sinopsis h2,
@@ -136,7 +136,7 @@ h1 {
 }
 
 
-/* NOMBRE ESTUDIANTE */
+/* NOMBRE */
 
 .presentacion h3 {
 
@@ -146,7 +146,7 @@ h1 {
 }
 
 
-/* AUDIOS */
+/* AUDIO */
 
 audio {
 
@@ -158,7 +158,7 @@ audio {
 }
 
 
-/* VIDEOS */
+/* VIDEO */
 
 .recomendacion iframe {
 
@@ -184,22 +184,24 @@ audio {
 
     font-family: "Cormorant Garamond", serif;
 
-    font-size: 65px;
+    font-size: 100px;
 
     font-weight: bold;
 
     color: white;
 
-    -webkit-text-stroke: 2px #7b1e3a;
+    -webkit-text-stroke: 3px #7b1e3a;
 
     text-shadow:
-        4px 4px 8px black;
+        4px 4px 10px black;
 
-    margin-top: 40px;
+    line-height: 1.1;
+
+    margin-top: 50px;
 }
 
 
-/* AJUSTE PARA CELULAR */
+/* CELULAR */
 
 @media (max-width:600px){
 
@@ -236,7 +238,7 @@ audio {
 
     .frase-final {
 
-        font-size: 45px;
+        font-size: 65px;
 
     }
 
