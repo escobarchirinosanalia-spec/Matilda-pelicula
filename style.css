@@ -4,10 +4,11 @@
     box-sizing: border-box;
 }
 
+
 body {
     font-family: "Baloo 2", cursive;
     background-color: #F8F4E8;
-    color: #333333;
+    color: #333;
 }
 
 
@@ -16,72 +17,81 @@ body {
 .portada {
     height: 100vh;
     position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    overflow:hidden;
 }
+
 
 .portada img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+    width:100%;
+    height:100%;
+    object-fit:cover;
 }
+
 
 .portada::after {
-    content: "";
-    position: absolute;
-    inset: 0;
-    background: rgba(0,0,0,0.45);
+    content:"";
+    position:absolute;
+    inset:0;
+    background:rgba(0,0,0,0.45);
 }
+
 
 .contenido-portada {
-    position: absolute;
-    z-index: 1;
-    text-align: center;
-    color: white;
-    padding: 20px;
+    position:absolute;
+    z-index:1;
+    text-align:center;
 }
 
 
-/* TITULO MATILDA */
+
+/* TITULO */
 
 h1 {
-    font-family: "Cormorant Garamond", serif;
-    font-size: 110px;
-    letter-spacing: 8px;
-    color: white;
 
-    -webkit-text-stroke: 3px #7b1e3a;
+    font-family:"Cormorant Garamond", serif;
 
-    text-shadow:
-        4px 4px 8px black;
+    font-size:110px;
+
+    color:white;
+
+    letter-spacing:8px;
+
+    -webkit-text-stroke:4px #7b1e3a;
+
+    text-shadow:5px 5px 10px black;
 }
 
 
-/* FRASE PORTADA */
+
+/* FRASE */
 
 .frase {
-    font-size: 34px;
-    color: #F5D6C6;
-    margin: 25px 0;
-    font-style: italic;
 
-    text-shadow:
-        3px 3px 6px black;
+    font-size:34px;
+
+    color:#F5D6C6;
+
+    margin:25px 0;
+
 }
+
 
 
 /* ESTUDIANTE */
 
 .estudiante {
-    font-size: 26px;
-    color: white;
-    font-weight: bold;
 
-    text-shadow:
-        3px 3px 6px black;
+    font-size:28px;
+
+    color:white;
+
+    font-weight:bold;
+
 }
+
 
 
 /* SECCIONES */
@@ -90,155 +100,122 @@ h1 {
 .sinopsis,
 .recomendacion {
 
-    width: 90%;
-    max-width: 850px;
-    margin: 60px auto;
-    padding: 35px;
+    width:90%;
 
-    text-align: center;
+    max-width:850px;
 
-    background-color: #fff8e7;
+    margin:60px auto;
 
-    border-radius: 25px;
+    padding:35px;
 
-    box-shadow:
-        0 8px 20px rgba(0,0,0,0.15);
+    text-align:center;
+
+    background:#fff8e7;
+
+    border-radius:25px;
+
 }
+
 
 
 /* TITULOS */
 
-.presentacion h2,
-.sinopsis h2,
-.recomendacion h2 {
+h2 {
 
-    color: #7b1e3a;
+    color:#7b1e3a;
 
-    font-size: 40px;
+    font-size:42px;
 
-    margin-bottom: 25px;
+    margin-bottom:25px;
 
-    font-weight: 800;
 }
 
 
-/* TEXTOS */
 
-.presentacion p,
-.sinopsis p,
-.recomendacion p {
+/* TEXTO */
 
-    font-size: 22px;
+p {
 
-    line-height: 1.8;
+    font-size:22px;
 
-    margin-bottom: 25px;
+    line-height:1.8;
+
 }
+
 
 
 /* NOMBRE */
 
-.presentacion h3 {
+h3 {
 
-    color: #7b1e3a;
+    color:#7b1e3a;
 
-    font-size: 32px;
+    font-size:32px;
+
 }
+
 
 
 /* AUDIO */
 
 audio {
 
-    width: 90%;
+    width:90%;
 
-    max-width: 500px;
-
-    margin: 15px auto;
 }
+
 
 
 /* VIDEO */
 
-.recomendacion iframe {
+iframe {
 
-    width: 100%;
+    width:100%;
 
-    max-width: 700px;
+    max-width:700px;
 
-    aspect-ratio: 16 / 9;
+    aspect-ratio:16/9;
 
-    border: none;
+    border-radius:15px;
 
-    border-radius: 15px;
-
-    margin: 20px auto 0;
-
-    display: block;
 }
 
 
-/* FRASE FINAL */
+
+/* FRASE FINAL GRANDE */
 
 .frase-final {
 
-    font-family: "Cormorant Garamond", serif;
+    font-family:"Cormorant Garamond", serif;
 
-    font-size: 100px;
+    font-size:110px !important;
 
-    font-weight: bold;
+    font-weight:bold;
 
-    color: white;
+    color:white;
 
-    -webkit-text-stroke: 3px #7b1e3a;
+    -webkit-text-stroke:4px #7b1e3a;
 
-    text-shadow:
-        4px 4px 10px black;
+    text-shadow:5px 5px 12px black;
 
-    line-height: 1.1;
+    line-height:1;
 
-    margin-top: 50px;
 }
+
 
 
 /* CELULAR */
 
-@media (max-width:600px){
+@media(max-width:600px){
 
     h1 {
-        font-size: 75px;
-    }
-
-
-    .frase {
-        font-size: 25px;
-    }
-
-
-    .estudiante {
-        font-size: 21px;
-    }
-
-
-    .presentacion h2,
-    .sinopsis h2,
-    .recomendacion h2 {
-
-        font-size: 32px;
-    }
-
-
-    .presentacion p,
-    .sinopsis p,
-    .recomendacion p {
-
-        font-size: 18px;
+        font-size:75px;
     }
 
 
     .frase-final {
 
-        font-size: 65px;
+        font-size:75px !important;
 
     }
 
