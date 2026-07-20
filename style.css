@@ -57,12 +57,14 @@ h1 {
 }
 
 .presentacion {
+    width: 90%;
     max-width: 800px;
     margin: 60px auto;
     padding: 30px;
     text-align: center;
     background-color: #fff8e7;
     border-radius: 20px;
+    box-sizing: border-box;
 }
 
 .presentacion h2 {
